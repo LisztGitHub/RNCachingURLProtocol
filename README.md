@@ -1,5 +1,7 @@
 # BACKGROUND
 
+###UIWebView页面信息的离线缓存
+
 RNCachingURLProtocol is a simple shim for the HTTP protocol (that’s not
 nearly as scary as it sounds). Anytime a URL is downloaded, the response is
 cached to disk. Anytime a URL is requested, if we’re online then things
